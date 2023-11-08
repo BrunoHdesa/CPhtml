@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/images/bg-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    color: rgb(254,209,54);
+    width: 160px;
+    height: 50px;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    color: rgb(255,255,255);
+    width: 350px;
+}
+
+.menu-opcoes {
+    display: inline;
+}
+
+.header {
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 60px;
+}
+.header h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+}
+
+.botao-saibamais{
+    color: rgb(255,255,255);
+    background-color: rgb(254,209,54);
+    border: rgb(254,209,54);
+    border-radius: 6px;
+    padding: 15px;
+    width: 15%;
+    font-size: 20px;
+}
+
+section h4 {
+    color: rgb(254,209,54);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+section h3 {
+    color: rgb(119,119,119);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
