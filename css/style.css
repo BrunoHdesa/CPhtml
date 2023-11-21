@@ -9,6 +9,11 @@ header {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo{
@@ -18,13 +23,15 @@ header {
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .alinhar {
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 15px; 
     padding-bottom: 10px;
+    
 }
 
 .menu {
@@ -34,6 +41,7 @@ header {
 
 .menu-opcoes {
     display: inline;
+    margin-left: 10px;
 }
 
 .header {
